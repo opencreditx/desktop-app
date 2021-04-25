@@ -7,11 +7,12 @@ on:
 
 jobs:
   publish:
+    environment: production
     runs-on: ${{ matrix.os }}
 
     strategy:
       matrix:
-        os: [ macos-latest ]
+        os: [macos-latest]
 
     steps:
       - name: Checkout git repo
