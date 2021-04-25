@@ -85,9 +85,8 @@
       "./assets/**"
     ],
     "publish": {
-      "provider": "github",
-      "owner": "opencreditx",
-      "repo": "desktop-app"
+      "provider": "s3",
+      "bucket": "ocx-desktop-app"
     }
   },
   "repository": {
